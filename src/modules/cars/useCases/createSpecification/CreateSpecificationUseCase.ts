@@ -1,10 +1,10 @@
-import { ISpecificationsRepository } from "../repositories/ISpecificationsRepository"
+import { ISpecificationsRepository } from "../../repositories/ISpecificationsRepository";
 
 interface IRequest {
   name: string;
   description: string;
 }
-class CreateSpecificationService {
+class CreateSpecificationUseCase {
   static execute(arg0: { name: any; description: any; }) {
     throw new Error('Method not implemented.');
   }
@@ -24,4 +24,4 @@ class CreateSpecificationService {
   }
 }
 
-export { CreateSpecificationService }
+export { CreateSpecificationUseCase }
